@@ -18,8 +18,7 @@ function App () {
 
   return (
     <>
-      <h1>{welcomeStatement}?:: Hi There</h1>
-      <p>This should be some states and shit</p>
+      <h1>{welcomeStatement}</h1>
     </>
   )
 }
