@@ -4,7 +4,7 @@ function getUsers (db = connection) {
   return db('users').select()
 }
 
-function getUser(id, db = connection) {
+function getUser (id, db = connection) {
   return db('users').select().where({id}).first
 }
 
